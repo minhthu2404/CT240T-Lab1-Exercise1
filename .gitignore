@@ -1,16 +1,21 @@
-# Java compiled files
+# Tệp biên dịch Java
 *.class
+*.jar
+*.war
 
-# Build folders
+# Thư mục đầu ra của IDE
 bin/
 out/
 target/
+build/
 
-# IDE files
+# Cấu hình IDE (IntelliJ / Eclipse / VS Code)
 .idea/
-.vscode/
 *.iml
+.settings/
+.classpath
+.project
 
-# OS files
+# Tệp hệ điều hành
 .DS_Store
 Thumbs.db
